@@ -1,0 +1,4 @@
+Lag,lb_stat,lb_pvalue,Conclusion
+5,51.02182694590311,8.560138803810454e-10,ARCH/volatility clustering remains
+10,86.95269453371378,2.1484395842451276e-14,ARCH/volatility clustering remains
+20,94.26653866124036,1.3181560523952424e-11,ARCH/volatility clustering remains

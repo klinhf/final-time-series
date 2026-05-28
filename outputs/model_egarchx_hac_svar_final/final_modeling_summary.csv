@@ -1,0 +1,6 @@
+block,selected_model,selection_rule,output_file
+ARMA mean baseline,"ARMA(3,2)","Lowest BIC among converged ARMA(p,q) models",table_1_arma_mean_selection.csv
+GARCH-family volatility,"ARMA(3,2)-EGARCH(1,1)-t",Lowest BIC among converged models passing residual sanity checks,table_2_garch_family_comparison_and_diagnostics.csv
+True EGARCH-X variance equation,ARMA32_EGARCHX_t_devaluation_dummy_only,Lowest BIC among custom EGARCH/EGARCH-X models passing sanity checks,table_3_custom_egarchx_model_comparison.csv; table_4_custom_egarchx_coefficients_with_pvalues.csv; table_4b_custom_egarchx_extreme_residuals.csv
+Supplementary HAC shock-volatility regression,HAC_abs_lag1,"Lowest BIC, used for supplementary interpretation only",table_5_hac_shock_volatility_coefficients.csv; table_6_hac_shock_volatility_model_summary.csv
+Supplementary weekly SVAR,Weekly recursive short-run A-model SVAR,"Lag selected by BIC, fallback to AIC, minimum lag 1; structural identification through recursive A restrictions",table_7_weekly_svar_summary.csv; table_8_weekly_svar_granger_causality.csv; table_9_weekly_svar_structural_irf.csv; table_10_weekly_svar_errors.csv

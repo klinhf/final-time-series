@@ -1,0 +1,3 @@
+Residual source,Lags,ARCH-LM Stat,ARCH-LM P-value,F Stat,F P-value,Conclusion
+Constant mean residuals,10,59.52228651864602,4.462378249896696e-09,6.025597730795555,3.844001758347702e-09,ARCH effect detected
+OLS mean equation residuals (aggregate dummy mode),10,61.300416092385284,2.0548735024678084e-09,6.208406840695932,1.7504593400219167e-09,ARCH effect detected

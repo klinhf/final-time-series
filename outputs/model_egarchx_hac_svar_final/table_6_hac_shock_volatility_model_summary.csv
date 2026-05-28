@@ -1,0 +1,3 @@
+model,nobs,r2,adj_r2,AIC,BIC,hac_lags,x_cols
+HAC_abs_lag1,3997,0.034971076456864925,0.0332776188321966,7999.469259975399,8049.81565484509,5,"abs_z_vix_change_lag1, abs_z_us10y_change_lag1, abs_z_dxy_return_lag1, abs_z_oil_return_lag1, abs_z_vnindex_return_lag1, crisis_dummy, devaluation_20100211_dummy"
+HAC_signed_lag1,3997,0.005358703966535483,0.0036132817874844347,8120.274956451216,8170.621351320907,5,"z_vix_change_lag1, z_us10y_change_lag1, z_dxy_return_lag1, z_oil_return_lag1, z_vnindex_return_lag1, crisis_dummy, devaluation_20100211_dummy"

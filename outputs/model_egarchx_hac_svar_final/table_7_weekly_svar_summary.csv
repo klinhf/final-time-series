@@ -1,0 +1,3 @@
+model,target,n_obs_weekly,n_variables,lag,ordering,fit_status
+SVAR_shocks_to_fx_return,fx_return,831,6,4,vix_change -> us10y_change -> dxy_return -> oil_return -> vnindex_return -> fx_return,OK
+SVAR_shocks_to_selected_volatility,log_selected_cond_vol,831,6,1,vix_change -> us10y_change -> dxy_return -> oil_return -> vnindex_return -> log_selected_cond_vol,OK

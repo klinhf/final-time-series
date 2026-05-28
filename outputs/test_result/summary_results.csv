@@ -1,0 +1,2 @@
+n_obs,adf_all_stationary,kpss_all_stationary,ljung_box_return_autocorrelation,volatility_clustering,arch_effect,non_normal_fx_return
+4006,True,True,True,True,True,True

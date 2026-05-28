@@ -1,0 +1,11 @@
+model,target,shock,lag,p_value,significant_5pct
+SVAR_shocks_to_fx_return,fx_return,vix_change,4,0.139520215857099,False
+SVAR_shocks_to_fx_return,fx_return,us10y_change,4,1.4959551658853842e-05,True
+SVAR_shocks_to_fx_return,fx_return,dxy_return,4,0.09795142528388556,False
+SVAR_shocks_to_fx_return,fx_return,oil_return,4,0.31645344823852156,False
+SVAR_shocks_to_fx_return,fx_return,vnindex_return,4,0.18599619361608433,False
+SVAR_shocks_to_selected_volatility,log_selected_cond_vol,vix_change,1,0.8447210363657011,False
+SVAR_shocks_to_selected_volatility,log_selected_cond_vol,us10y_change,1,0.24555191300283707,False
+SVAR_shocks_to_selected_volatility,log_selected_cond_vol,dxy_return,1,0.5250320601143517,False
+SVAR_shocks_to_selected_volatility,log_selected_cond_vol,oil_return,1,0.026550749330868255,True
+SVAR_shocks_to_selected_volatility,log_selected_cond_vol,vnindex_return,1,0.6392678884249638,False
